@@ -1,8 +1,12 @@
 # gtf-to-csv-converter
-simple python 2 gtf to csv converter 
+A simple python 2 gtf to csv converter.
 
 Stores whole GTF in memory thus will fail on relatively big data. 
 Single thread only.
+
+Works with gzip compressed GTF files and pandas (so please have pandas installed).
+
+GTF file format spec: http://useast.ensembl.org/info/website/upload/gff.html
 
 # man
 ```
